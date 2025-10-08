@@ -1,0 +1,73 @@
+{
+  "hero": {
+    "title": "Power Your Home, Not Your Power Bill",
+    "subtitle": "Join thousands of homeowners saving money on energy bills. See if you qualify for a free year of solar and start generating clean, renewable energy today.",
+    "background_image": "images/solar-2story-home-black-panels.png",
+    "button1_text": "Check If You Qualify",
+    "button1_link": "https://form.jotform.com/252747391188165",
+    "button2_text": "Learn More",
+    "button2_link": "#how-it-works"
+  },
+  "how_it_works": {
+    "title": "How It Works",
+    "subtitle": "Get free solar panels installed in just 4 simple steps. Our streamlined process makes going solar easy and hassle-free.",
+    "steps": [
+      {
+        "title": "Check Eligibility",
+        "description": "Answer a few quick questions to see if your home qualifies for a free year of solar."
+      },
+      {
+        "title": "Free Consultation",
+        "description": "Our solar experts will conduct a free home assessment and create a custom solar solution for you."
+      },
+      {
+        "title": "Professional Installation",
+        "description": "Our certified installers will handle everything from permits to installation."
+      },
+      {
+        "title": "Start Saving",
+        "description": "Begin generating clean energy and watch your electricity bills drop significantly every month, including the first year free!"
+      }
+    ]
+  },
+  "qualify": {
+    "title": "Check If You Qualify Today",
+    "subtitle": "Most homeowners qualify for free solar panel installation. Find out in less than 60 seconds if you're eligible to start saving on your energy bills.",
+    "checklist": [
+      "Homeowners with monthly electric bills over $100",
+      "Currently serviced by eligible utility provider",
+      "Credit score of 650 or higher"
+    ],
+    "button_text": "Check If You Qualify Now",
+    "button_link": "https://form.jotform.com/252747391188165",
+    "footnote": "No obligation · Free qualification check· Takes less than 60 seconds"
+  },
+  "testimonials": {
+    "title": "What Our Customers Say",
+    "subtitle": "Join thousands of satisfied homeowners who are saving money and helping the environment with solar energy.",
+    "items": [
+      {
+        "quote": "The entire process was seamless. I went from application to installation in just 3 weeks, and I'm already seeing significant savings on my electric bill. Best decision ever!",
+        "author_name": "Michael Johnson",
+        "author_title": "Homeowner, San Diego, California",
+        "author_initials": "MJ"
+      },
+      {
+        "quote": "I was skeptical at first about free solar panels, but the team was professional and transparent throughout. My energy bills have dropped by 70%!",
+        "author_name": "Sarah Rodriguez",
+        "author_title": "Homeowner, Miami, Florida",
+        "author_initials": "SR"
+      },
+      {
+        "quote": "Going solar was easier than I thought. The installers were courteous and efficient. I love knowing I'm contributing to a cleaner environment while saving money.",
+        "author_name": "David Chen",
+        "author_title": "Homeowner, Miami, Florida",
+        "author_initials": "DC"
+      }
+    ]
+  },
+  "footer": {
+    "description": "Empowering homeowners with clean, renewable solar energy. Join the solar revolution today.",
+    "copyright": "All rights reserved. © SolarSavings 2025"
+  }
+}
