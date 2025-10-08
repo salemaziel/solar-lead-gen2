@@ -1,0 +1,75 @@
+backend:
+  name: github # Using GitHub backend. You'll need to set up an OAuth client for authentication.
+  repo: your-github-username/your-repo-name # IMPORTANT: Please replace this with your actual GitHub repository.
+  branch: main
+
+# The media_folder specifies where to store uploaded media files in the repository.
+media_folder: "src/assets/images"
+
+# The public_folder specifies the public-facing path for media files.
+public_folder: "/images"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "src/data/content.json"
+        label: "Homepage"
+        name: "homepage"
+        fields:
+          - label: "Hero Section"
+            name: "hero"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+              - {label: "Background Image", name: "background_image", widget: "image"}
+              - {label: "Button 1 Text", name: "button1_text", widget: "string"}
+              - {label: "Button 1 Link", name: "button1_link", widget: "string"}
+              - {label: "Button 2 Text", name: "button2_text", widget: "string"}
+              - {label: "Button 2 Link", name: "button2_link", widget: "string"}
+          - label: "How It Works Section"
+            name: "how_it_works"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+              - label: "Steps"
+                name: "steps"
+                widget: "list"
+                fields:
+                  - {label: "Title", name: "title", widget: "string"}
+                  - {label: "Description", name: "description", widget: "text"}
+          - label: "Qualify Section"
+            name: "qualify"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+              - label: "Checklist"
+                name: "checklist"
+                widget: "list"
+                field: {label: "Item", name: "item", widget: "string"}
+              - {label: "Button Text", name: "button_text", widget: "string"}
+              - {label: "Button Link", name: "button_link", widget: "string"}
+              - {label: "Footnote", name: "footnote", widget: "string"}
+          - label: "Testimonials Section"
+            name: "testimonials"
+            widget: "object"
+            fields:
+              - {label: "Title", name: "title", widget: "string"}
+              - {label: "Subtitle", name: "subtitle", widget: "text"}
+              - label: "Testimonials"
+                name: "items"
+                widget: "list"
+                fields:
+                  - {label: "Quote", name: "quote", widget: "text"}
+                  - {label: "Author Name", name: "author_name", widget: "string"}
+                  - {label: "Author Title", name: "author_title", widget: "string"}
+                  - {label: "Author Initials", name: "author_initials", widget: "string"}
+          - label: "Footer"
+            name: "footer"
+            widget: "object"
+            fields:
+              - {label: "Description", name: "description", widget: "text"}
+              - {label: "Copyright", name: "copyright", widget: "string"}
