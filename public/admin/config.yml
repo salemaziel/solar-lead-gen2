@@ -11,6 +11,24 @@ backend:
 # The media_folder specifies where to store uploaded media files in the repository.
 media_folder: "public/images"
 
+logo: 
+  src: "/images/logos/solar-saving-logo.png"
+  show_in_header: true
+
+logo_url: "/images/logos/solar-saving-logo.png"
+
+media_libraries:
+  default:
+    config:
+      transformations:
+        raster_image: # original format
+          format: webp # new format, only `webp` is supported
+          quality: 85 # default: 85
+          width: 2048 # default: original size
+          height: 2048 # default: original size
+        svg:
+          optimize: true
+
 # The public_folder specifies the public-facing path for media files.
 public_folder: "/images"
 
