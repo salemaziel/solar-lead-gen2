@@ -1,7 +1,7 @@
 backend:
   name: github # Using GitHub backend. You'll need to set up an OAuth client for authentication.
-  repo: your-github-username/your-repo-name # IMPORTANT: Please replace this with your actual GitHub repository.
-  branch: main
+  repo: salemaziel/solar-lead-gen2 # IMPORTANT: Please replace this with your actual GitHub repository.
+  branch: HTML
 
 # The media_folder specifies where to store uploaded media files in the repository.
 media_folder: "src/assets/images"
