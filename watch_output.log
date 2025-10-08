@@ -1,0 +1,5 @@
+
+> app@1.0.0 watch
+> npm-run-all build --parallel watch-templates watch-admin watch-data watch-css browsersync
+
+sh: 1: npm-run-all: not found
