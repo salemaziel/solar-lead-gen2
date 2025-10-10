@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Power Your Home, Not Your Power Bill",
-    "subtitle": "Join thousands of homeowners saving money on energy bills. See if you qualify for a free year of solar and start generating clean, renewable energy today.",
+    "subtitle": "Join thousands of homeowners saving money on energy bills. See if you qualify for a FIRST YEAR FREE of solar and start generating clean, renewable energy today.",
     "background_image": "/images/solar-2story-home-black-panels.png",
     "button1_text": "Check If You Qualify",
     "button1_link": "https://form.jotform.com/252747391188165",
@@ -10,7 +10,7 @@
   },
   "how_it_works": {
     "title": "How It Works",
-    "subtitle": "Get free solar panels installed in just 4 simple steps. Our streamlined process makes going solar easy and hassle-free.",
+    "subtitle": "Get ZERO DOWN solar panels installed in just 4 simple steps. Our streamlined process makes going solar easy and hassle-free.",
     "steps": [
       {
         "title": "Check Eligibility",
@@ -32,9 +32,9 @@
   },
   "qualify": {
     "title": "Check If You Qualify Today",
-    "subtitle": "Most homeowners qualify for free solar panel installation. Find out in less than 60 seconds if you're eligible to start saving on your energy bills.",
+    "subtitle": "Most homeowners qualify for solar panel installation with 0 out of pocket or up-front expense. Find out in less than 60 seconds if you're eligible to start saving on your energy bills.",
     "checklist": [
-      "Homeowners with monthly electric bills over $100",
+      "Homeowners with monthly electric bills over $150",
       "Currently serviced by eligible utility provider",
       "Credit score of 650 or higher"
     ],
@@ -43,7 +43,7 @@
     "footnote": "No obligation · Free qualification check · Takes less than 60 seconds"
   },
   "testimonials": {
-    "title": "What Our Customers Say",
+    "title": "What Our Customers Say!",
     "subtitle": "Join thousands of satisfied homeowners who are saving money and helping the environment with solar energy.",
     "items": [
       {
